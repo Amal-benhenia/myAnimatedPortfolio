@@ -8,35 +8,36 @@ import { useEffect, useRef } from "react";
 
 export const projects = [
   {
-    title: "Wawatmos",
-    url: "https://r3f-wawatmos-final.vercel.app/",
-    image: "projects/wawatmos.jpg",
-    description: "Recreating the Atmos Awwwards website with React Three Fiber",
+    title: "Fondation Tunisie",
+    url: "https://fondationtunisie.org/en/",
+    image: "projects/project1.png",
+    description: "",
   },
   {
-    title: "Portfolio Baking",
-    url: "https://www.youtube.com/watch?v=YkHqpqJgLKw",
-    image: "projects/baking.jpg",
-    description: "Learn how to bake a 3D model with Blender and use it in r3f",
+    title: "Horizon Europe",
+    url: "https://www.horizon-europe.tn/",
+    image: "projects/project2.png",
+    description: "",
   },
   {
-    title: "3D Avatar",
-    url: "https://www.youtube.com/watch?v=pGMKIyALcK0",
-    image: "projects/avatar.jpg",
-    description: "Learn how to use ReadyPlayerMe to create a 3D avatar",
+    title: "Serviced",
+    url: "https://www.serviced.com.tn/",
+    image: "projects/project3.png",
+    description: "",
   },
   {
-    title: "Kanagame",
-    url: "https://www.youtube.com/watch?v=zwNF1-lsia8",
-    image: "projects/kanagame.jpg",
-    description: "Use React Three Fiber to create a 3D game",
+    title: "Luxor",
+    url: "https://luxor.com.tn/en/",
+    image: "projects/project4.png",
+    description: "",
   },
   {
-    title: "Loader",
-    url: "https://www.youtube.com/watch?v=L12wIvuZTOY",
-    image: "projects/loader.jpg",
-    description: "Create a loading screen for your r3f projects",
+    title: "Quicktext",
+    url: "https://www.quicktext.im/",
+    image: "projects/project5.png",
+    description: "",
   },
+
 ];
 
 const Project = (props) => {

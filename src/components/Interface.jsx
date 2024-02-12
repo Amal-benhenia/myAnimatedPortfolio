@@ -50,7 +50,7 @@ const AboutSection = (props) => {
       <h1 className="text-4xl md:text-6xl font-extrabold leading-snug mt-8 md:mt-0">
         Hi, I'm
         <br />
-        <span className="bg-white px-1 italic">Wawa Sensei</span>
+        <span className="bg-white px-1 italic">Amal Ben Henia</span>
       </h1>
       <motion.p
         className="text-lg text-gray-600 mt-4"
@@ -67,9 +67,23 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        I make YouTube videos to help developers
+        I'm a passionate Fullstack Web Developer with 
+        <br /> 
+        a background in Physics and Astrophysics. 
         <br />
-        learn how to build 3D apps
+        My journey from exploring the mysteries of 
+        <br />
+        the universe to crafting digital universes online
+        <br />
+        allows me to blend the precision of science with
+        <br />
+        the artistry of web design.
+        <br />
+        I thrive on turning innovative sketches into 
+        <br />
+        dynamic, accessible, and visually captivating websites.
+        <br />
+        Let's create something amazing together!
       </motion.p>
       <motion.button
         onClick={() => setSection(3)}
@@ -95,26 +109,35 @@ const AboutSection = (props) => {
 };
 
 const skills = [
+
   {
-    title: "Threejs / React Three Fiber",
-    level: 80,
+    title: "HTML5/CSS3",
+    level: 95,
   },
   {
-    title: "React / React Native",
-    level: 90,
-  },
-  {
-    title: "Nodejs",
+    title: "JavaScript (ES6+)",
     level: 90,
   },
   {
     title: "Typescript",
-    level: 60,
+    level: 80,
   },
   {
-    title: "3D Modeling",
-    level: 40,
+    title: "React",
+    level: 95,
   },
+  {
+    title: "Nextjs",
+    level: 75,
+  },
+  {
+    title: "threejs",
+    level: 90,
+  },
+  {
+    title: "Nodejs",
+    level: 80,
+  }
 ];
 const languages = [
   {
@@ -178,53 +201,7 @@ const SkillsSection = () => {
             </div>
           ))}
         </div>
-        <div>
-          <h2 className="text-3xl md:text-5xl font-bold mt-10 text-white">
-            Languages
-          </h2>
-          <div className="mt-8 space-y-4">
-            {languages.map((lng, index) => (
-              <div className="w-full md:w-64" key={index}>
-                <motion.h3
-                  className="text-lg md:text-xl font-bold text-gray-100"
-                  initial={{
-                    opacity: 0,
-                  }}
-                  variants={{
-                    visible: {
-                      opacity: 1,
-                      transition: {
-                        duration: 1,
-                        delay: 2 + index * 0.2,
-                      },
-                    },
-                  }}
-                >
-                  {lng.title}
-                </motion.h3>
-                <div className="h-2 w-full bg-gray-200 rounded-full mt-2">
-                  <motion.div
-                    className="h-full bg-indigo-500 rounded-full "
-                    style={{ width: `${lng.level}%` }}
-                    initial={{
-                      scaleX: 0,
-                      originX: 0,
-                    }}
-                    variants={{
-                      visible: {
-                        scaleX: 1,
-                        transition: {
-                          duration: 1,
-                          delay: 2 + index * 0.2,
-                        },
-                      },
-                    }}
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+       
       </motion.div>
     </Section>
   );
