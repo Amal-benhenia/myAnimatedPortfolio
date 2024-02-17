@@ -67,7 +67,8 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        I'm a passionate Fullstack Web Developer with 
+          <br /> 
+        A passionate Fullstack Web Developer with 
         <br /> 
         a background in Physics and Astrophysics. 
         <br />
@@ -77,11 +78,8 @@ const AboutSection = (props) => {
         <br />
         allows me to blend the precision of science with
         <br />
-        the artistry of web design.
-        <br />
-        I thrive on turning innovative sketches into 
-        <br />
-        dynamic, accessible, and visually captivating websites.
+        the artistry of web design. 
+        
         <br />
         Let's create something amazing together!
       </motion.p>
