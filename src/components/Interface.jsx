@@ -50,7 +50,7 @@ const AboutSection = (props) => {
       <h1 className="text-4xl md:text-6xl font-extrabold leading-snug mt-8 md:mt-0">
         Hi, I'm
         <br />
-        <span className="bg-white px-1 italic">Amal Ben Henia</span>
+        <span className="block mt-2 md:inline-block md:mt-0 bg-white px-1 italic">Amal Ben Henia</span>
       </h1>
       <motion.p
         className="text-lg text-gray-600 mt-4"
@@ -67,7 +67,7 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-          <br /> 
+      <br />  
         A passionate Fullstack Web Developer with 
         <br /> 
         a background in Physics and Astrophysics. 
@@ -78,8 +78,7 @@ const AboutSection = (props) => {
         <br />
         allows me to blend the precision of science with
         <br />
-        the artistry of web design. 
-        
+        the artistry of web design.  
         <br />
         Let's create something amazing together!
       </motion.p>
